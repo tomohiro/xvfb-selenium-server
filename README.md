@@ -26,7 +26,7 @@ Install dependencies:
 ```
 $ cd xvfb-selenium-server
 $ sudo ./setup.sh
-``
+```
 
 Run the Selenium server:
 
