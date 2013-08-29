@@ -1,0 +1,11 @@
+#!/bin/sh
+
+SELENIUM_HOME="$(cd $(dirname $0)/.. && pwd)"
+SELENIUM_SERVER_VERSION='2.35.0'
+
+echo 'Starting Xvfb...'
+export DISPLAY=:10
+Xvfb :10 -screen 0 800x600x24 -ac
+
+echo 'Starting Selenium server...'
+java -jar ${SELENIUM_HOME}/lib/selenium-server-standalone-${SELENIUM_SERVER_VERSION}.jar
