@@ -28,11 +28,17 @@ $ cd xvfb-selenium-server
 $ sudo ./setup.sh
 ```
 
+Start Xvfb:
+
+```sh
+$ sudo service xvfb start
+```
+
 Run the Selenium server:
 
 ```sh
 $ cd /opt/xvfb-selenium-server
-$ ./bin/run-headless-selenium-server
+$ ./bin/run-selenium-server
 ```
 
 Easy daemonize:
