@@ -34,15 +34,8 @@ Start Xvfb:
 $ sudo service xvfb start
 ```
 
-Run the Selenium server:
+Start Selenium Server:
 
 ```sh
-$ cd /opt/xvfb-selenium-server
-$ ./bin/run-selenium-server
-```
-
-Easy daemonize:
-
-```sh
-$ nohup ./bin/run-selenium-server &
+$ sudo service selenium-server
 ```

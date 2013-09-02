@@ -1,7 +1,0 @@
-#!/bin/sh
-
-SELENIUM_HOME="$(cd $(dirname $0)/.. && pwd)"
-SELENIUM_SERVER_VERSION='2.35.0'
-
-echo 'Starting Selenium server...'
-java -jar ${SELENIUM_HOME}/lib/selenium-server-standalone-${SELENIUM_SERVER_VERSION}.jar
