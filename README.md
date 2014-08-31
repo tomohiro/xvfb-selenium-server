@@ -18,7 +18,7 @@ Clone this repository:
 
 ```sh
 $ cd /opt/
-$ git clone git@github.com:Tomohiro/xvfb-selenium-server.git
+$ git clone https://github.com/Tomohiro/xvfb-selenium-server.git
 ```
 
 Install dependencies:
