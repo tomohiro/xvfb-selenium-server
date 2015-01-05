@@ -1,6 +1,13 @@
 Xvfb Selenium server
 ================================================================================
 
+**This project is no longer maintained.**
+I recommend that you use [Selenium HQ Docker Images](https://registry.hub.docker.com/repos/selenium/) instead.
+
+
+Description
+--------------------------------------------------------------------------------
+
 Headless Selenium server project on Xvfb
 
 
